@@ -25,7 +25,7 @@ msgstr ""
 msgid "An error has occurred when loading your config. A backup is saved at %s"
 msgstr ""
 "Ha succeït un error mentre es carregava el fitxer config. S'ha desat una "
-"copia de seguretat en  %s"
+"còpia de seguretat en  %s"
 
 #: exe/application.py:257
 #, python-format
@@ -33,7 +33,7 @@ msgid ""
 "An error has occurred when loading your Idevice Store. A backup is saved "
 "at %s"
 msgstr ""
-"Ha succeït un error mentre es carregava el magatzem Idevice. S'ha desat "
+"S'ha produït un error mentre es carregava el magatzem iDevice. S'ha desat "
 "un copia de seguretat en  %s"
 
 #: exe/application.py:308
@@ -126,7 +126,7 @@ msgstr ""
 " <p>Si l'aplicació de Java que esteu afegint ha sigut generada\n"
 " per un dels programes d'aquesta llista,  seleccioneu-lo, \n"
 "després afegiu el fitxer de dades generat pel vostre programa.</p>\n"
-"<p>Ex. per aplicacions de java de Geogebra, seleccioneu geogebra i afegiu"
+"<p>Ex. per aplicacions de java de Geogebra, seleccioneu Geogebra i afegiu"
 " després el fitxer .ggb \n"
 "creat amb geogebra.</p>"
 
@@ -142,15 +142,15 @@ msgstr "iDevice %s no té paquet"
 
 #: exe/engine/appletidevice.py:440
 msgid "Sorry, this URL is unreachable"
-msgstr "Disculpeu però aquest URL no és accessible"
+msgstr "Disculpeu però l'URL no és accessible"
 
 #: exe/engine/appletidevice.py:525
 msgid ""
 "Click on the AddFiles button to select the .ggb file and then click on "
 "the Upload button."
 msgstr ""
-"Prem al botó «Afegeix fitxers» per seleccionar el fitxer .ggb i llavors "
-"prem sobre el botó «Carrega»."
+"Clica el botó «Afegeix fitxers» per seleccionar el fitxer .ggb i llavors "
+"clica el botó «Carrega»."
 
 #: exe/engine/appletidevice.py:535
 msgid ""
@@ -159,7 +159,7 @@ msgid ""
 "will be generated from eXe."
 msgstr ""
 "Prem al botó «Afegeix fitxers» per seleccionar el fitxer .jclic.zip i "
-"llavors prem sobre el botó «Carrega».<p> L'activitat serà visible quan el"
+"llavors clica el botó «Carrega».<p> L'activitat serà visible quan el"
 " fitxer HTML sigui generat des d'eXe."
 
 #: exe/engine/appletidevice.py:545
@@ -167,15 +167,15 @@ msgid ""
 "Click on the AddFiles button to select the .sb or .scratch file and then "
 "click on the Upload button."
 msgstr ""
-"Prem al botó «Afegeix fitxers» per seleccionar el fitxer .sb o .scratch  "
-"i llavors prem sobre el botó «Carrega»."
+"Clica el botó «Afegeix fitxers» per seleccionar el fitxer .sb o .scratch  "
+"i llavors clica el botó «Carrega»."
 
 #: exe/engine/appletidevice.py:556
 msgid ""
 "Please enter: scene number,URL (no spaces) that include it, eg: "
 "3,http://example.com; click on the Upload button afterwards."
 msgstr ""
-"Entreu: nombre d'escena, URL (sense espais) que l'inclou, ex: "
+"Entreu: número d'escena, URL (sense espais) que l'inclou, ex: "
 "3,http://example.com; premeu sobre el botó «Carrega» després."
 
 #: exe/engine/appletidevice.py:558
@@ -183,8 +183,8 @@ msgid ""
 "Click on the AddFiles button to select the .html or .htm file and then "
 "click on the Upload button to get its content."
 msgstr ""
-"Prem al botó «Afegeix fitxers» per seleccionar el fitxer .html o .htm  i "
-"llavors prem sobre el botó «Carrega» per obtenir el contingut."
+"Clica el botó «Afegeix fitxers» per seleccionar el fitxer .html o .htm  i "
+"llavors clica el botó «Carrega» per obtenir el contingut."
 
 #: exe/engine/appletidevice.py:569
 msgid ""
@@ -214,9 +214,9 @@ msgid ""
 msgstr ""
 "L'iDevice fitxer adjunt és utilitzat per adjuntar un fitxer al vostre "
 "fitxer .elp. Per exemple: podries tenir un fitxer PDF o un fitxer "
-"presentació PPT ( ODP ) que voleu que els alumnes mirin, aquest fitxer "
+"presentació PPT ( ODP ) que vols que els alumnes mirin, aquest fitxer "
 "pot ser adjuntat i etiquetat per indicar la mida que té. Els alumnes "
-"poden prémer sobre l'enllaç i baixar-se'l."
+"poden clicar l'enllaç i baixar-lo."
 
 #: exe/engine/attachmentidevice.py:58
 msgid ""
@@ -225,7 +225,7 @@ msgid ""
 "the file is downloaded or how the material should be used."
 msgstr ""
 "Escriu el text que vols associar amb la baixada del fitxer. Podeu donar "
-"instruccions sobre que fer amb el fitxer  baixat o com utilitzar el "
+"instruccions sobre què fer amb el fitxer  baixat o com utilitzar el "
 "material."
 
 #: exe/engine/attachmentidevice.py:65 exe/engine/attachmentidevice.py:186
@@ -237,7 +237,7 @@ msgid ""
 "Click <strong>Select a file</strong>, browse to the file you want to "
 "attach and select it."
 msgstr ""
-"Premeu <strong>Seleccioneu un fitxer</strong>, navegueu fins aquest "
+"Cliqueu <strong>Seleccioneu un fitxer</strong>, navegueu fins aquest "
 "fitxer que voleu adjuntar i seleccioneu-lo."
 
 #: exe/engine/attachmentidevice.py:72
@@ -249,12 +249,10 @@ msgid ""
 "attachment.</p><p>For example: <code>Sales Forecast.doc "
 "(500kb)</code></p>"
 msgstr ""
-"<p>Assigneu una etiqueta per cada fitxer enviat. És útil incloure el "
-"tipus de fitxer. Ex: pdf, doc (odt) , ppt (odp ) etc.</p> <p> Incloure la"
-" mida és molt recomanable per tal que quan siga exportat el vostre fitxer"
-" a un lloc web , la gent tinga una idea del temps que tardarà a baixar-se"
-" el vostre fitxer adjunt.</p> <p> Per exemple: <code> Vendes.odt (500kb) "
-"</code> </p>"
+"<p>Assigneu una etiqueta per a cada fitxer enviat. És útil incloure el "
+"tipus de fitxer. Ex: pdf, doc (odt) , ppt (odp ) etc.</p> <p> Incloure la "
+" mida també és recomanable per calcular el temps de descarrega </p> <p> "
+" Per exemple: <code> Vendes.odt (500kb)</code></p>"
 
 #: exe/engine/attachmentidevice.py:105
 #, python-format
@@ -305,7 +303,7 @@ msgid ""
 "Choose an optional image to be shown to the student on completion of this"
 " question"
 msgstr ""
-"Trieu una imatge opcional per ser mostrada a l'estudiant al completar "
+"Trieu una imatge opcional per mostrar a l'estudiant al completar "
 "aquesta pregunta"
 
 #: exe/engine/casestudyidevice.py:200
@@ -341,12 +339,12 @@ msgstr ""
 "farien \n"
 " per completar la tasca o resoldre la situació. El cas d'estudi \n"
 " permet als alumnes aplicar els seus coneixements i experiència per "
-"completar les tasques \n"
+"acompletar les tasques \n"
 " assignades. En dissenyar el cas d'estudi considereu el següent:<ul> \n"
-"<li> Quins punts educatius són tractats en la història</li>\n"
+"<li> Quins punts educatius són tractats a la història</li>\n"
 "<li> Quina preparació prèvia li cal a l'alumne per resoldre el cas "
 "d'estudi. </li>\n"
-"<li> On ajustar el cas d'estudi en la resta del curs.</li>\n"
+"<li> On ajustar el cas d'estudi a la resta del curs.</li>\n"
 "<li> Com interaccionen els alumnes amb els materials i amb els altres "
 "alumnes. \n"
 " Ex: Quan estudia l'aula  una situació poden els equips començar a "
